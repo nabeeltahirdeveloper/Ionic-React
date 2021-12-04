@@ -1,0 +1,271 @@
+
+
+
+
+
+
+.grad1 {
+    height: 351px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #FE5858 , #EE9518);
+  }
+  .fadeCardBg {
+    height: 200px;
+    background-color: rgb(160, 157, 157); /* For browsers that do not support gradients */
+    border-radius: 5%;
+    /* background-image: linear-gradient(to right, #FE5858 , #EE9518); */
+  }
+  .mainCardBg {
+    height: 200px;
+    background-color: rgb(160, 157, 157); /* For browsers that do not support gradients */
+    border-radius: 5%;
+    background-image: linear-gradient(to right, #FE5858 , #EE9518);
+  }
+  .footerText {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-top: 100px; */
+  }
+  .card{
+    width: 18rem;
+    height: 400px;
+  }
+  .maincard{
+    width: 18rem;
+    height: 470px;
+    border: 1px solid gray;
+    border-radius: 3%;
+  }
+  .cardimg{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 70px;
+    border: 3px solid gray;
+  }
+  .emailSub {
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    padding: 20px; 
+    width: 400px;
+    height: 10px;  
+  }
+  
+  .emailButton {
+    display: flex;
+  
+  }
+  
+  .subButton{
+    height: 46px;
+    width: 105px;
+    /* margin-top: 4px; */
+    
+    border-radius: 25px;
+    border: 3px solid white;
+    background-color: white;
+    margin-left: -100px;
+  }
+  
+  .vl{
+    border-left: 6px solid green;
+    height: 100px;
+    /* position: absolute; */
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  
+  .left {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 0.5em solid #333;
+    border-radius: 50%;
+    margin-right: 2em;
+    margin-top: 150px;
+  }
+  
+  .left:after {
+    content: '';
+      display: inline-block;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.5em solid #333;
+    border-right: 0.5em solid #333;
+    -moz-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  
+  
+  
+  .right {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 0.5em solid #333;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top: 150px;
+  }
+  
+  .right:after {
+    content: '';
+      display: inline-block;
+    margin-top: 0.8em;
+    margin-left: 0.6em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.5em solid #333;
+    border-right: 0.5em solid #333;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .cardHeading2{
+    color: #FE5858;
+  }
+  .cardHr{
+    width: 250px;
+  
+    /* margin-left: 30%; */
+  }
+  
+  .dot{
+    border-radius: 50%;
+    /* border: #EE9617; */
+    background-color: #EE9617;
+    height: 25px;
+    width: 25px;
+    margin-top: 40px;
+    /* display: inline-block; */
+  
+  }
+  
+  .supportHeading{
+    /* display: block; */
+    margin-left: 30px;
+    margin-top: -27px;
+  
+  }
+  
+  .supportHr{
+    width: 300px;
+    /* height: 20; */
+    border: 2px solid gray;
+    border-radius: 10%;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .supportImage{
+      height: 521px;  
+      width: 692px;
+      margin-left: 200px;
+    }
+  }
+  
+  
+  .supportP{
+    color: gray;
+  }
+  .hosting{
+    color: #FE5858;
+    margin-left: 5px;
+  }
+  
+  .whtAce{
+    font-family:'Poppins-Medium', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* @media only screen and (min-width: 800px) { */
+    .bannerBg{
+      background-color: red; /* For browsers that do not support gradients */
+      background-image: linear-gradient(to right, #FE5858 , #EE9518);
+      width: 80%;
+      height: 351px;
+    }
+    
+    
+    .qTab{
+      background-color: white;
+      width: 60%;
+      height: 351px;
+      margin-left: 10%;
+      text-align: left;
+      display: block;
+    }
+    
+    .textTab{
+      margin: 10%;
+      /* padding-top: 10%; */
+    }
+    
+    
+    .bannerHeading{
+      font-family: "Poppins";
+      padding: 3px;
+      
+    }
+    
+    
+    .bannerHeading2{
+      font-family: "Poppins";
+      color: #FE5858;
+      padding: 3px;
+    }
+    
+    .bannerHr{
+      width: 80%;
+      border: 2px solid gray;
+    }
+    
+    .bannerText{
+      
+      color: gray;
+      font-family: "Poppins";
+      font-size: 18px;
+    }
+    
+    .call{
+      width: 150px;
+      border: 0px solid white;
+      background-color: white;
+      color: #D44800;
+      margin: 165px 50px;
+      font-family: "Poppins";
+      
+    }
+  
+    @media only screen and (max-width: 768px) {
+      .supportImage {
+        width: 440px;
+        height: auto;
+        margin-left: -50px;
+      }
+      .bannerBg{
+        width: 100%;
+      }
+      .qTab{
+        width: 100%;
+        height: 70%;
+        margin-top: 5%;
+        margin-left: 0%;
+  
+      }
+      .call{
+        margin:0%;
+        margin-left: 250%;
+      }
+    }
+
+
+.subButton{
+
+    color: black;
+}

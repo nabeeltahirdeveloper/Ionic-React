@@ -1,0 +1,25 @@
+.my-custom-class {
+    --background: rgb(238, 235, 235);
+}
+
+.delete{
+    --color:red;
+    -webkit-text-fill-color: red;
+}
+
+
+.share{
+    --color:rgb(93, 157, 231);
+    -webkit-text-fill-color:rgb(93, 157, 231);
+}
+
+.play{
+    --color: rgb(119, 221, 119);
+    -webkit-text-fill-color: rgb(119, 221, 119);
+}
+
+.cancel{
+    --color: black;
+    -webkit-text-fill-color: black;
+    /* --icon:"./icon.svg" */
+}

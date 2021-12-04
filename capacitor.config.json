@@ -1,0 +1,6 @@
+{
+  "appId": "com.nabeel.appone",
+  "appName": "testApp",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
